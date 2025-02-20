@@ -1,8 +1,8 @@
 import MagicButton from "./ui/MagicButton";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
-// import { FaLocationArrow } from 'react-icons/fa';
-import { ArrowRight } from 'lucide-react';
+import { FaLocationArrow } from "react-icons/fa6";
+// import { ArrowRight } from 'lucide-react';
 
 const Hero = () => {
   return (
@@ -28,15 +28,16 @@ const Hero = () => {
             />
 
             <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Transforming Concepts into Seamless Experiences
+            Transforming Concepts into Seamless User Experience
             </p>
 
             <a href="#about">
                 <MagicButton 
-                    title="Show my work"
-                    icon={<ArrowRight />}
+                    title="View my work"
+                    icon={<FaLocationArrow />}
                     position='right'
                 />
+                <br />
             </a>
         </div>
     </div>
