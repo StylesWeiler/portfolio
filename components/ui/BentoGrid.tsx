@@ -48,12 +48,13 @@ export const BentoGridItem = ({
   titleClassName?: string;
   spareImg?: string;
 }) => {
-  const [copied, setCopied] = useState(false);
+  const [downloaded, setDownloaded] = useState(false);
 
-  const handleCopy  = () => {
+  // TODO: make it download my resume
+  const handleDownload  = () => {
     navigator.clipboard.writeText('n.stylesweiler@gmail.com');
 
-    setCopied(true);
+    setDownloaded(true);
   }
 
   return (
@@ -88,7 +89,7 @@ export const BentoGridItem = ({
         </div>
         {id === 6 && (
             <BackgroundGradientAnimation>
-                <div className="absolute z-50 flex items-center justify-center text-white font-bold" />
+                {/* <div className="absolute z-50 flex items-center justify-center text-white font-bold" /> */}
             </BackgroundGradientAnimation> 
         )}
 
@@ -117,7 +118,7 @@ export const BentoGridItem = ({
                 </div>
                 <div className="flex flex-col gap-3 lg:gap-8">
                 <span className=" py-4 px-4 rounded-lg text-center bg-[#10132e]" />
-                    {['C#/.NET', 'Java', 'Python'].map
+                    {['Express.js', 'Typescript', 'Tailwind'].map
                     ((item) => (
                         <span key={item} className="py-2 lg:py-4 lg:px-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E]">
                             {item}
@@ -131,8 +132,8 @@ export const BentoGridItem = ({
           <div className="mt-5 relative">
             <div className={`absolute -bottom-5 right-0`}>
               <Lottie options={{
-                loop: copied,
-                autoplay: copied,
+                loop: downloaded,
+                autoplay: downloaded,
                 animationData,
                 rendererSettings: {
                   preserveAspectRatio: 'xMidYMid slice'
@@ -140,11 +141,11 @@ export const BentoGridItem = ({
               }} />
             </div>
             <MagicButton 
-              title={copied ? 'Email copied' : 'Copy my email'}
+              title={downloaded ? 'Resume downloaded' : 'Download my resume'}
               icon={<IoCopyOutline />}
               position="left"
               otherClasses="!bg-[#161a31]"
-              handleClick={handleCopy}
+              handleClick={handleDownload}
             />
           </div>
         )}
