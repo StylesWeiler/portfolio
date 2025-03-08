@@ -205,13 +205,16 @@ export const navItems = [
     {
       id: 1,
       img: "/git.svg",
+      link: "https://github.com/StylesWeiler"
     },
     {
       id: 2,
-      img: "/twit.svg",
+      img: "/insta.svg",
+      link: "https://www.instagram.com/styles.weiler/"
     },
     {
       id: 3,
       img: "/link.svg",
+      link: "https://www.linkedin.com/in/styles-weiler/"
     },
   ];

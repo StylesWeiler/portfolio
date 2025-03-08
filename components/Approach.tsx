@@ -13,11 +13,9 @@ const Approach = () => {
       </h1>
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
         <Card
-          title="Planning & Strategy"
+          title="Planning & Architecture"
           icon={<AceternityIcon order="Phase 1" />}
-          des="We'll collaborate to map out your website's goals, target audience, 
-          and key functionalities. We'll discuss things like site structure, 
-          navigation, and content requirements."
+          des="I begin by gathering requirements and aligning with stakeholders to define a clear development roadmap. I design scalable architectures, structure databases efficiently, and establish secure authentication and data flow strategies to ensure maintainability and performance."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -25,11 +23,9 @@ const Approach = () => {
           />
         </Card>
         <Card
-          title="Development & Progress Update"
+          title="Development & Implementation"
           icon={<AceternityIcon order="Phase 2" />}
-          des="Once we agree on the plan, I cue my lofi playlist and dive into
-          coding. From initial sketches to polished code, I keep you updated
-          every step of the way."
+          des="I follow clean coding principles and test-driven development to build modular, efficient, and reliable applications. By focusing on performance, security, and user experience, I ensure seamless backend logic, optimized database interactions, and intuitive frontend interfaces."
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -42,11 +38,9 @@ const Approach = () => {
           />
         </Card>
         <Card
-          title="Development & Launch"
+          title="Optimization & Maintenance"
           icon={<AceternityIcon order="Phase 3" />}
-          des="This is where the magic happens! Based on the approved design, 
-          I'll translate everything into functional code, building your website
-          from the ground up."
+          des="After deployment, I continuously monitor performance, refine queries, and optimize APIs to improve efficiency and scalability. I proactively address security vulnerabilities, document processes, and iterate on features based on user feedback to ensure long-term system reliability."
         >
           <CanvasRevealEffect
             animationSpeed={3}
