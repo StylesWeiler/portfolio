@@ -50,12 +50,20 @@ export const BentoGridItem = ({
 }) => {
   const [downloaded, setDownloaded] = useState(false);
 
-  // TODO: make it download my resume
-  const handleDownload  = () => {
+  const handleDownload = () => {
+    const link = document.createElement("a");
+    link.href = "/Resume-for-Styles-Weiler.pdf"; // Adjust the filename as needed
+    link.download = "Styles\' Resume"; // Change this to your preferred filename
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+
+    // Optionally, still copy email to clipboard
     navigator.clipboard.writeText('n.stylesweiler@gmail.com');
 
     setDownloaded(true);
-  }
+  };
+
 
   return (
     <div
@@ -103,7 +111,11 @@ export const BentoGridItem = ({
                 {title}
             </div>
         
-        {id === 2 && <GridGlobe />}
+        {id === 2 && (
+          <div className="relative" style={{ height: "10px", width: "100%" }}>
+            <GridGlobe />
+          </div>
+        )}
 
         {id === 3 && (
             <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2">

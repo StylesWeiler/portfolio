@@ -60,7 +60,7 @@ const Hero = () => {
             I&lsquo;m driven by innovation—especially the intersection of people and software.
           </p>
 
-          <a href="#about">
+          <a href="#projects">
             <MagicButton
               title="Check out my work"
               icon={<FaLocationArrow />}

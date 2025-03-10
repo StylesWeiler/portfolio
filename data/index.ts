@@ -74,99 +74,83 @@ export const navItems = [
       id: 1,
       title: "Fit4Life",
       des: "Achieve your health and wellness goals using this app written entirely in Swift.",
-      img: "/p1.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-      link: "/ui.earth.com",
+      img: "/Fit4Life.png",
+      iconLists: ["/Swift.png", "/Firebase.svg"],
+      link: "https://github.com/StylesWeiler/Fit4Life",
     },
     {
       id: 2,
       title: "KeyCoach - AI Typing Coach",
       des: "Learn proper typing technique with Keycoach, your AI-powered typing coach.",
-      img: "/p2.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-      link: "/ui.yoom.com",
+      img: "/KeyCoach.png",
+      iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
+      link: "https://www.keycoa.ch/",
     },
     {
       id: 3,
-      title: "Fag el-Gamous",
-      des: "Learn more about BYU Egyptology and their latest discoveries at Fag el-Gamous",
-      img: "/p3.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-      link: "/ui.aiimg.com",
+      title: "Type Invaders",
+      des: "Check out this React-based typing game based on the arcade classic \"SPACE INVADERS\".",
+      img: "/Space.png",
+      iconLists: ["/phaser-web.png", "/next.svg", "/tail.svg", "/ts.svg"],
+      link: "https://www.keycoa.ch/type-invader",
     },
     {
       id: 4,
-      title: "Type Invaders",
-      des: "Check out this React-based typing game based on the arcade classic \"SPACE INVADERS\"",
-      img: "/p4.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-      link: "/ui.apple.com",
+      title: "Portfolio",
+      des: "Check out the code that made this website possible.",
+      img: "/Portfolio.png",
+      iconLists: ["/ts.svg", "/next.svg", "/tail.svg"],
+      link: "https://github.com/StylesWeiler/portfolio",
     },
   ];
   
   export const testimonials = [
     {
-      quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+      quote: "At Restaurant365, I contributed to the development and enhancement of a Workforce/Payroll product used by over 1,000 businesses nationwide. I built scalable full-stack applications using C#/.NET, optimized APIs for better data exchange, and leveraged AWS services like Lambda and RDS to automate workflows. Additionally, I worked closely with product managers and designers to define requirements, debugged complex issues, and improved system performance through SQL query optimizations.",
+      name: "Software Engineer",
+      title: "Restaurant365",
     },
     {
-      quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Jordan",
-      title: "Director of AlphaStream Technologies",
+      quote: "At eAssist Dental Solutions, I spearheaded the development of a dental scheduling web application, designing both the backend in Node.js/Express and the frontend in React. I built and deployed custom APIs to facilitate real-time data synchronization and enhance user experience. By utilizing Docker and DigitalOcean for deployment, I ensured scalability and reliability in production. I also collaborated with stakeholders to gather feedback and iterated on UI/UX improvements based on real-world use.",
+      name: "Full Stack Engineer",
+      title: "eAssist Dental Solutions",
     },
     {
-      quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael J. Fox",
-      title: "Director of AlphaStream Technologies",
+      quote: "As a Teaching Assistant for IS 201, I guided students through foundational concepts in information systems, providing hands-on support as they learned SQL, HTML/CSS, VBA, Tableau, and database diagramming. I assisted students in troubleshooting errors, clarifying technical concepts, and reinforcing best practices for data analysis and software development. Through one-on-one and group instruction, I helped students build confidence in problem-solving and applying technology to business use cases, ensuring a strong grasp of course material.",
+      name: "Teaching Assistant",
+      title: "Brigham Young University"
     },
     {
-      quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Scott",
-      title: "Director of AlphaStream Technologies",
-    },
-    {
-      quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Augustine",
-      title: "Director of AlphaStream Technologies",
+      quote: "At Bear Country Bees, I conducted a comprehensive security audit, identifying and mitigating over 50 vulnerabilities to prevent data breaches. I designed an optimized MySQL database, significantly improving query efficiency and system reliability. Additionally, I deployed cloud-based solutions using AWS services like Lambda, RDS, and EC2 to enhance scalability and performance. To ensure smooth future development, I documented database structures and security best practices.",
+      name: "Database Developer",
+      title: "Bear Country Bees",
     },
   ];
   
   export const companies = [
     {
       id: 1,
-      name: "cloudinary",
-      img: "/cloud.svg",
-      nameImg: "/cloudName.svg",
+      name: "R365",
+      // img: "/R365-logo.svg",
+      nameImg: "/R365.svg",
     },
     {
       id: 2,
-      name: "appwrite",
-      img: "/app.svg",
-      nameImg: "/appName.svg",
+      name: "eAssist",
+      // img: "/app.svg",
+      nameImg: "/eAssist.svg",
     },
     {
       id: 3,
-      name: "HOSTINGER",
-      img: "/host.svg",
-      nameImg: "/hostName.svg",
+      name: "BYU",
+      // img: "/host.svg",
+      nameImg: "/BYU.png",
     },
     {
       id: 4,
-      name: "stream",
-      img: "/s.svg",
-      nameImg: "/streamName.svg",
-    },
-    {
-      id: 5,
-      name: "docker.",
-      img: "/dock.svg",
-      nameImg: "/dockerName.svg",
+      name: "Bear Country Bees",
+      // img: "/host.svg",
+      nameImg: "/BCB.png",
     },
   ];
   
