@@ -89,7 +89,7 @@ export const navItems = [
     {
       id: 3,
       title: "Type Invaders",
-      des: "Check out this React-based typing game based on the arcade classic \"SPACE INVADERS\".",
+      des: "Check out this React-based typing game based on the arcade classic \"Space Invaders\" 👾.",     
       img: "/Space.png",
       iconLists: ["/phaser-web.png", "/next.svg", "/tail.svg", "/ts.svg"],
       link: "https://www.keycoa.ch/type-invader",
@@ -97,7 +97,7 @@ export const navItems = [
     {
       id: 4,
       title: "Portfolio",
-      des: "Check out the code that made this website possible.",
+      des: "View the source code that made this website possible.",
       img: "/Portfolio.png",
       iconLists: ["/ts.svg", "/next.svg", "/tail.svg"],
       link: "https://github.com/StylesWeiler/portfolio",
